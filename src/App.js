@@ -66,7 +66,7 @@ function App() {
       } else if (web3) {
         web3 = new Web3(web3.currentProvider);
       } else {
-        window.alert("Please use metamask");
+        window.alert("Please use metamask data");
       }
     }
 
@@ -84,7 +84,7 @@ function App() {
             <div className="container">
               <Routes>
                 <Route exact path="/" element={<First />} />
-                <Route exact path="/user" element={<Home type="user" s1="Book an Appointment" s2="View Appointments for the day" s3="View your Account Details" />} />
+                <Route exact path="/user" element={<Home type="user" s1="Book an Appointmentt" s2="View Appointments for the day" s3="View your Account Details" />} />
 
                 <Route
                   exact
